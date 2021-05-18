@@ -19,9 +19,7 @@ import sudoku.constants.GameState;
 import sudoku.problemdomain.Coordinates;
 import sudoku.problemdomain.SudokuGame;
 
-import java.awt.*;
 import java.util.HashMap;
-import java.util.Objects;
 
 public class UserInterfaceImpl implements IUserInterfaceContract.View,
         EventHandler<KeyEvent> {
